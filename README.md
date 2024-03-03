@@ -1,17 +1,25 @@
 # Quarter Five Spot 3D
-Recently I’ve been learning reservoir simulation and I thought about solving some problems and posting them. 
+
 Reservoir simulation is the use of numerical methods on a geological model and petrophysical properties of the reservoir, the fluid system and the production equipment to predict how fluids flow through the reservoir to the well, the production equipment.
+
 The simulation model consists of three main parts:
 	The flow model which is the set of equation describing the flow of fluids in porous medium 
 	The geological model: realized in the form of 3D grid populated with petrophysical data that acts as input to the flow model.
 	The well model that provides pressure and fluid communication between the reservoir and the surface.
+ 
 The incompressible Immiscible Two phase Flow model can be written in  the fractional flow formulation:
 One elliptic pressure equation
+
 -∇([λ_n+λ_w ]K∇p_n )=q- ∇[λ_w ∇p_c+(λ_n ρ_n+λ_w ρ_w )g∇z]
+
 Another parabolic, with hyperbolic character, saturation equation
+
 ϕ (∂S_w)/∂t+∇[f_w v ⃗+f_w λ_n KΔρ∇z]=q_w-∇(f_w λ_n KP_c^' ∇S_w)
+
 Darcy equation
+
 v ⃗=-[λ_n+λ_w ]∇p_n+ λ_w ∇p_c+(λ_n ρ_n+λ_w ρ_w )g∇z
+
 
 I ran a simulation on a uniform 40*40*15 grid with dimensions 700*700*100 m for 25 years of injection/production. the petrophysical data are sampled from the topmost layer of the SPE10 dataset.
 
