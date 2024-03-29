@@ -35,3 +35,4 @@ It’s a simplified example, not representative of the real world, but it helps 
 3D Visualization
 <img src="https://github.com/Mahmoud899/QuarterFiveSpot3D/blob/master/Flood.gif" width="400" height="350" /> <img/>
 
+<img src="https://github.com/Mahmoud899/TensorFlow-Advanced-Techniques-Specialization/blob/main/MOOC%203%20-%20Advanced%20Computer%20Vision%20with%20TensorFlow/week%202%20-%20Object%20Detection/duckies_test.gif" width="400" height="350" /> <img src="https://github.com/Mahmoud899/TensorFlow-Advanced-Techniques-Specialization/blob/main/MOOC%203%20-%20Advanced%20Computer%20Vision%20with%20TensorFlow/week%202%20-%20Object%20Detection/zombie-anim.gif" width="400" height="350" />
