@@ -22,7 +22,7 @@ Darcy equation
 v ⃗=-[λ_n+λ_w ]∇p_n+ λ_w ∇p_c+(λ_n ρ_n+λ_w ρ_w )g∇z
 
 
-I ran a simulation on a uniform 40*40*15 grid with dimensions 700*700*100 m for 25 years of injection/production. the petrophysical data are sampled from the topmost layer of the SPE10 dataset.
+I simulated a uniform 40*40*15 grid with dimensions 700*700*100 m for 25 years of injection/production. the petrophysical data are sampled from the topmost layer of the SPE10 dataset.
 
 This is an example of a Quarter Five Spot Pattern of water Flooding with two wells, an injector, and a producer, at diagonally opposite corners of the reservoir region. The wells operate at a fixed rate corresponding to the injection of one pore volume over a period of 23 years, 0.0119m3/s or 6490 STB/day. The pore volume is equal to 9.423 MMm3, or 59.269 MMSTB. To reach the final time I used 250 pressure steps and the implicit transport solver. The fluid is assumed to obey a simple Corey fluid model with quadratic relative permeabilities and no residual saturations. The water density is 1014 kg/m3 and the oil density is 700 kg/m3. The water viscosity is 2.5 cp and the oil viscosity is 1 cp.  
 Water breakthrough occurs after almost 9.7 years. The oil production drops after which due and a substantial amount of water is produced.
@@ -33,5 +33,5 @@ I attached some Visualizations of the results. The code will be available on my 
 It’s a simplified example, not representative of the real world, but it helps understand the concepts in reservoir simulation and visualize the flow in a porous medium.
 
 3D Visualization
-<img src="https://github.com/Mahmoud899/QuarterFiveSpot3D/blob/master/Flood.gif" width="400" height="350" /> 
+<img src="https://github.com/Mahmoud899/QuarterFiveSpot3D/blob/master/Flood.gif" width="400" height="350" /> <img/>
 
